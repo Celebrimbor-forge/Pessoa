@@ -1,6 +1,6 @@
 
 public class Pessoa {
-	private String id;
+	private Long id;
 	private String password;
 	private String username;
 	private String cidade;
@@ -9,11 +9,11 @@ public class Pessoa {
 	private String cpf;
 	private String rua;
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
